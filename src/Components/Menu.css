@@ -1,0 +1,40 @@
+.menu-container {
+  position: relative;
+}
+
+.horizontal-menu {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu-items {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 40px; /* Adjust based on your design */
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.menu-items.open {
+  display: flex;
+}
+
+.menu-items a {
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.menu-items a:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,44 @@
+/* App.css */
+
+/* Set a light green background color for the entire app */
+.app-container {
+  background-color: #d4edda; /* Light green color for the overall background */
+  min-height: 100vh; /* Ensure the container covers the full height of the viewport */
+  display: flex;
+  flex-direction: column;
+  padding: 20px; /* Optional: add some padding around the container */
+}
+
+/* Style the main content area with a white background */
+.main-content {
+  background-color: #ffffff; /* White background for the main content area */
+  padding: 20px; /* Add padding inside the main content area */
+  border-radius: 8px; /* Optional: rounded corners for a softer look */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+}
+
+/* Style the error message */
+.error-message {
+  color: red;
+  font-size: 1.2em;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the menu */
+.menu {
+  background-color: #ffffff; /* White background for the menu */
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Light border for separation */
+}
+
+/* Style the grid-view, tile-view, and detail-view with padding */
+.grid-view, .tile-view, .detail-view {
+  padding: 20px;
+}
+
+/* Additional general styles for better readability */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
